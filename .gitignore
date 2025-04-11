@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+frontend/frontend/node_modules/
+frontend/frontend/dist/
+frontend/frontend/.pnp*
+frontend/frontend/.yarn*
+frontend/frontend/npm-debug.log*
+frontend/frontend/yarn-debug.log*
+frontend/frontend/yarn-error.log*
+
+# Environment Files
+backend/.env
+
+# Trained Models
+backend/ppo_agent.zip
+backend/ppo_agent_version.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific
+.vscode/
+*.code-workspace
+.idea/

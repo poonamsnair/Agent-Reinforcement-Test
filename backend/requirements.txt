@@ -1,0 +1,20 @@
+flask==2.3.3
+flask-socketio==5.3.6
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.13
+langchain-core>=0.1.0
+python-dotenv==1.0.0
+openai # Remove version constraint to upgrade
+pydantic==2.5.2
+numpy==1.26.3
+pandas==2.1.4
+matplotlib==3.8.2
+networkx==3.2.1
+eventlet==0.35.0
+gunicorn==21.2.0
+requests==2.31.0
+stable-baselines3==2.3.0
+torch
+langchainhub>=0.1.20
+Flask-CORS>=3.0.10 # Add Flask-CORS for handling cross-origin requests
